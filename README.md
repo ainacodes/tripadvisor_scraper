@@ -4,7 +4,8 @@
 
 Tripadvisor Scraper is a Python-based web scraping project designed to extract detailed information from Tripadvisor listings. This project specifically focuses on scraping data from Michelin Star restaurants, with an example using Gallaghers Steakhouse in New York City.
 
-You can find the step-by-step here...
+You can find the step-by-step here in [Rayobyte community](https://rayobyte.com/community/scraping-project/extract-restaurant-details-customer-reviews-and-ratings-from-tripadvisor-using-python/)
+You can watch the [video here](https://youtu.be/kFs9YkxGvZE)
 
 ## Features
 
@@ -48,6 +49,12 @@ You can find the step-by-step here...
    ```bash
    cd tripadvisor_scraper
    ```
+
+### Code functionality
+- `restaurant_review_details.py`: Scrape the custmomer reviews from the first page only
+- `restaurant_review_details_pagination.py`: Scrape all the reviews from all pages.
+- `restaurant_review_details_pagination_proxy.py`: Implemeting proxy rotation by rotating the proxy for every page scrape.
+    - Please include a new file name `proxy.txt` that includes a list of proxy in this format `username:password@host:port`
 
 ## Contributing
 
